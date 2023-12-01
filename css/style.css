@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-rows: auto, 100vh, auto;  
+    background-image: linear-gradient(pink, rgb(170, 127, 134), rgb(150, 112, 118));
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+.head {
+    display: flex;
+    justify-content: space-around;
+}
+#btnAdd button{
+    width: 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    text-decoration: none;
+    padding: 10px;
+    width: 250px;
+}
+
+ul >  li {
+   display: flex;
+   justify-content: space-around;
+} 
+button{
+    display: block;
+    margin-block: 10px;
+    border-radius: 5px;
+    width: 50px;
+    color: antiquewhite;
+    background-color: black;
+}
